@@ -7,21 +7,21 @@
     >
         Văn bản đã ban hành
     </v-alert>
-    <PDFViewer
+    <!-- <PDFViewer
       :source = "'../../../resource/chithi05.pdf'"
       style="height: 90vh; width: 85vw"
       crossorigin="anonymous"
-    />
+    /> -->
   </div>
 </template>
 
 <script>
-import PDFViewer from 'pdf-viewer-vue'
+//import PDFViewer from 'pdf-viewer-vue'
 // OR THE FOLLOWING IMPORT FOR VUE 2
 // import PDFViewer from 'pdf-viewer-vue/dist/vue2-pdf-viewer'
 export default {
   components: {
-    PDFViewer,
+    // PDFViewer,
   },
 
   data() {
